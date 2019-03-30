@@ -28,4 +28,5 @@ You can use the command line (c++) to run CNN models, the usage is not different
 ./examples/imagenet/train_googlenet.sh --gpu 0
 ```
 
-
+### Support Or Contact
+If you have any questions, please contact Yang Ma (yangm@hust.edu.cn)
