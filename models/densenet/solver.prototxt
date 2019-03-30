@@ -1,0 +1,22 @@
+net: "models/densenet/DenseNet_121_train_val.prototxt"
+# test purposes 
+test_iter: 1000
+# test every epoch
+test_interval: 5000
+base_lr: 0.1
+display: 20
+# 1281167 images, train batch size 256, 90 epochs
+max_iter: 450410
+lr_policy: "multistep"
+gamma: 0.1
+momentum: 0.9
+weight_decay: 0.0001
+solver_mode: GPU
+#random_seed: 831486
+# lr lowered by 10 times at epoch 30
+stepvalue: 150137
+# lr lowered by 10 times at epoch 60
+stepvalue: 300274
+type: "Nesterov"
+snapshot: 150000
+snapshot_prefix:"models/densenet/densenet_121"
