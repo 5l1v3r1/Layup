@@ -18,7 +18,7 @@ make all -j8
 ```
 
 ### Example
-You can use the command line (c++) to run CNN models, the usage is not different from BVLC Caffe.
+You can use the command line (c++) to run CNN models. The usage is not different from BVLC Caffe.
 
 ```
 // Take GoogLeNet as an example
