@@ -6,9 +6,9 @@ Layup provides a memory optimization strategy for CNNs based on BVLC Caffe(https
 - If you want to run extreme-deep networks, such as ResNet-1001, please make sure that the node has enough CPU memory. (Our test environment is 256GB)
 
 ### Download and Build 
-The prerequisites are the same with BVLC Caffe, more details please visit http://caffe.berkeleyvision.org/installation.html
+The prerequisites are the same with BVLC Caffe, more details please visit http://caffe.berkeleyvision.org/installation.html.
 
-Run the following command to download and build Layup
+Run the following command to download and build Layup.
 
 ```
 // git clone this repository
@@ -29,4 +29,4 @@ You can use the command line (c++) to run CNN models, the usage is not different
 ```
 
 ### Support Or Contact
-If you have any questions, please contact Yang Ma (yangm@hust.edu.cn)
+If you have any questions, please contact Yang Ma (yangm@hust.edu.cn).
